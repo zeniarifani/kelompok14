@@ -29,7 +29,7 @@ return new class extends Migration
             $table->date('birth_date');//bisa input sendiri atau pake kalender
             $table->string('CV');//Format file pdf, jpg, jpeg dan png
             $table->string('flazz_card');//Format file pdf, jpg, jpeg dan png
-            $table->string('id_card');//Format file pdf, jpg, jpeg dan png
+            $table->string('id_cardd');//Format file pdf, jpg, jpeg dan png
 
             //login
             $table->string('name');
