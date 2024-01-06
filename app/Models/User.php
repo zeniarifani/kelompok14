@@ -18,6 +18,23 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
+        //regist group
+        'nama_group',
+        'confirm_pasword',
+        'pilihan',
+
+        //regist leader
+        'full_name',
+        'no_wa',
+        'line_id',
+        'github_id',
+        'birth_place',
+        'birth_date',
+        'CV',
+        'flazz_card',
+        'id_card',
+
+        
         'name',
         'email',
         'password',
