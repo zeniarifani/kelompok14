@@ -32,7 +32,7 @@ class User extends Authenticatable
         'birth_date',
         'CV',
         'flazz_card',
-        'id_card',
+        'id_cardd',
 
         
         'name',
