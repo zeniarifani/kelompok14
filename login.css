@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+/* .techno {
+  position: relative;
+}
+
+.technologo {
+  position: absolute;
+  top: 250px;
+  left: 500px;
+}
+.jas {
+  position: absolute;
+  top: 213px;
+  left: 890px;
+}
+.welcome {
+  position: absolute;
+  top: 340px;
+  left: 480px;
+}
+.letslog {
+  position: absolute;
+  top: 440px;
+  left: 560px;
+}
+.robot {
+  position: absolute;
+  top: 280px;
+  left: 1100px;
+}
+.blmadaakun {
+  position: absolute;
+  top: 900px;
+  left: 880px;
+}
+.registhere {
+  position: absolute;
+  top: 900px;
+  left: 1060px;
+} */
+
+.welcome-container .letslog {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 483px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.welcome-text {
+  margin-top: 30px;
+}
+
+.form input {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 624px;
+  height: 45px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 197px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: blue;
+  color: white;
+  outline: none;
+  border: none;
+  margin-top: 25px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+}
+
+#forget-pass {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  color: white;
+}

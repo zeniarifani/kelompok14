@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+
+.logo {
+  position: relative;
+}
+
+.technologo {
+  position: absolute;
+  top: 250px;
+  left: 500px;
+}
+.jas {
+  position: absolute;
+  top: 213px;
+  left: 920px;
+}
+.forget {
+  position: absolute;
+  top: 340px;
+  left: 550px;
+}
+.pass {
+  position: absolute;
+  top: 435px;
+  left: 550px;
+}
+.masukkan {
+  position: absolute;
+  top: 550px;
+  left: 550px;
+}
+.robot-bingung {
+  position: absolute;
+  top: 570px;
+}
+.alrknow {
+  position: absolute;
+  top: 940px;
+  left: 700px;
+}
+.loginhere {
+  position: absolute;
+  top: 940px;
+  left: 938px;
+}
